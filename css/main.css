@@ -18,7 +18,7 @@
     list-style: none;
     display: flex;
     margin: 0;
-    margin-right: 45%;
+    /* margin-right: 45%; */
 }
 
 .header-nav-item{
