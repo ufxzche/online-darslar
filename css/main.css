@@ -62,9 +62,11 @@
     font-size: 15px;
     font-weight: 500;
     color: whitesmoke;
+    transition: all 1s;
 }
 
 .sign-in:hover{
+    transition: all 1s;
     border:  1px solid #DD7979;
     background: whitesmoke;
     color: #DD7979;
@@ -85,11 +87,13 @@
     font-weight: 500;
     color: #DD7979;
     margin-right: 20px;
+    transition: all 1s;
 }
 .sign-up:hover{
     border:  1px solid whitesmoke;
     background: #DD7979;
     color: whitesmoke;
+    transition: all 1s;
 }
 
 .sign-in:active, .sign-up:active{
