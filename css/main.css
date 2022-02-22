@@ -45,27 +45,53 @@
     background: rgba(255, 189, 84, 1);
 }
 
-.header-contact{
-   width: 110px;
-   height: 45px;
-   background:  #DD7979;
-   border-radius: 5px;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
-   text-decoration: none;
-   font-size: 16px;
-   /* font-weight: bold; */
-   color: white;
+.header-login{
+    display: flex;
 }
 
-.header-contact:hover{
-    color: white;
+.sign-in{
+    border-radius: 35px;
+    background: #DD7979;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: whitesmoke;
 }
 
-.header-contact:active{
+.sign-in:hover{
+    border:  1px solid #DD7979;
+    background: whitesmoke;
+    color: #DD7979;
+}
+
+.sign-up{
+    border:  1px solid #DD7979;
+    border-radius: 35px;
+    background: whitesmoke;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #DD7979;
+}
+.sign-up:hover{
+    border:  1px solid whitesmoke;
+    background: #DD7979;
+    color: whitesmoke;
+}
+
+.sign-in:active, .sign-up:active{
     opacity: 0.6;
 }
 
