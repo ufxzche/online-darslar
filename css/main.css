@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 2;
     padding: 0 100px;
 }
 
@@ -35,12 +35,12 @@
     font-size: 15px;
     font-weight: 500;
     color: black;
-    transition: all .5s;
+    transition: all .2s;
 }
 
 .header-nav-item:hover{
     color: #DD7979;
-    transition: all .5s;
+    transition: all .2s;
 }
 
 .header-nav-item:hover::after{
@@ -48,6 +48,15 @@
     content: "";
     width: 100%;
     height: 3px;
+    background: #DD7979;
+    transition: all .5s;
+}
+.header-nav-item::after{
+    display: block;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
     background: #DD7979;
     transition: all .5s;
 }
@@ -107,112 +116,23 @@
     opacity: 0.6;
 }
 
+.login-bg{
+    position: absolute;
+    top: -15px;
+    right: 50px;
+    z-index: -1;
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .header{
-        padding: 0 80px;
-    }
     
-    .toggle{
-        display: none;
-    }
-    .header-contact{
-       width: 90px;
-       height: 35px;
-    }
     
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .header{
-        padding: 0 30px;
-    }
-
-    .header-contact{
-        width: 70px;
-        height: 27px;
-        font-size: 14px;
-     }
-
-     .toggle{
-         display: block;
-         margin-left: 57%;
-     }
-     .toggle:hover ~ .header-nav{
-        transform: translate(0, 0);
-    }
-     .toggle >img{
-         width: 25px;
-         height: 25px;
-     }
-     .header-nav{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background: whitesmoke;
-        color: white;
-        z-index: 2;
-        top: 90px;
-
-        width: 50%;
-        height: 200px;
-
-        transform: translateX(-120%);
-        transition: transform .8s ease;
-
-        margin: 0;
-        padding: 35px 0;
-
-        line-height: 35px;
-     }
-
+    
      
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .header{
-        width: 100%;
-        padding: 0 15px;
-    }
-
-    .header-contact{
-        width: 70px;
-        height: 27px;
-        font-size: 14px;
-     }
-
-     .toggle{
-         display: block;
-         margin-left: 37%;
-     }
-     .toggle:hover ~ .header-nav{
-        transform: translate(0, 0);
-    }
-     .toggle >img{
-         width: 25px;
-         height: 25px;
-     }
-     .header-nav{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background: whitesmoke;
-        color: white;
-        z-index: 2;
-        top: 90px;
-
-        width: 93%;
-        height: 200px;
-
-        transform: translateX(-120%);
-        transition: transform .8s ease;
-
-        margin: 0;
-        padding: 35px 0;
-
-        line-height: 35px;
-     }
-
-     
+    
 }
