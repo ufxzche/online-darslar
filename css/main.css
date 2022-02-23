@@ -136,7 +136,7 @@
     background-position: center;
 
     position: absolute;
-    top: -20px;
+    top: -40px;
     right: 40px;
     z-index: -2;
 }
@@ -285,7 +285,7 @@
         text-align: center;
         background: whitesmoke;
         border-radius: 5px;
-        z-index: -2;
+        z-index: 0;
         top: 90px;
         width: 88%;
         height: 250px;
@@ -318,7 +318,7 @@
         padding: 0 15px;
     }
     
-    .toggle{
+    .toggle, .toggle:active{
         display: block;
         content: "";
         width: 30px;
@@ -351,7 +351,7 @@
         text-align: center;
         background: whitesmoke;
         border-radius: 5px;
-        z-index: -2;
+        z-index: 0;
         top: 85px;
         width: 92%;
         height: 250px;
@@ -375,4 +375,145 @@
        display: none;
     }
      
+}
+
+
+/* main section here  */
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+
+    padding: 0 23%;
+}
+
+.hero-title{
+   font-size: 30px;
+   font-weight: 900;
+   padding-top: 150px;
+}
+
+.hero-description{
+    color: #DD7979;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-courses{
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  background: #DD7979;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.hero-courses:hover{
+    border:  1px solid #DD7979;
+    background: white;
+    color: #DD7979;
+}
+
+.hero-donate{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #DD7979;
+    border-radius: 5px;
+    color: #DD7979;
+    background: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .hero-donate:hover{
+      border:  1px solid #DD7979;
+      background: #DD7979;
+      color: white;
+  }
+
+  .hero-bottom{
+      display: block;
+      content: "";
+      width: 200px;
+      height: 200px;
+      background: url(../img/hero-bottom.png) no-repeat;
+      background-size: cover;
+
+      position: absolute;
+      top: 450px;
+      left: 2%;
+  }
+
+
+@media only screen and (min-width: 540px) and (max-width: 769px) {
+    .hero{
+        width: 100%;
+        height: 70vh;
+        text-align: center;
+    
+        padding: 0 13%;
+    }
+
+    .hero-title{
+        padding-top: 30px;
+    }
+
+    .hero-bottom{
+        display: none;
+    }
+}  
+
+@media only screen and (min-width: 450px) and (max-width: 539px) {
+    .hero{
+        width: 100%;
+        height: 70vh;
+        text-align: center;
+    
+        padding: 0 5%;
+    }
+
+    .hero-title{
+        padding-top: 20px;
+    }
+
+    .hero-bottom{
+        display: none;
+    }
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 449px) {
+    .hero{
+        width: 100%;
+        height: 60vh;
+        text-align: center;
+    
+        padding: 0 2%;
+    }
+
+    .hero-title{
+        padding-top: 20px;
+    }
+
+    .hero-description{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .hero-bottom{
+        display: none;
+    }
 }
