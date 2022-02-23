@@ -248,7 +248,7 @@
 @media only screen and (min-width: 481px) and (max-width: 600px) {
     .header{
         width: 100%;
-        height: 50px;
+        height: 70px;
         padding: 0 30px;
     }
     
@@ -286,7 +286,7 @@
         background: whitesmoke;
         border-radius: 5px;
         z-index: -2;
-        top: 70px;
+        top: 85px;
         width: 88%;
         height: 250px;
         transform: translateY(-150%);
@@ -352,7 +352,7 @@
         background: whitesmoke;
         border-radius: 5px;
         z-index: -2;
-        top: 90px;
+        top: 85px;
         width: 92%;
         height: 250px;
         transform: translateY(-150%);
