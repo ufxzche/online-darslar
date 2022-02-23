@@ -415,18 +415,21 @@
 .hero-courses{
     width: 130px;
    height: 40px;
-   border: 2px solid white;
-   border-radius: 5px;
+   border: 2px solid #DD7979;
+   border-radius: 20px;
    text-decoration: none;
-   color: white;
+   color: #DD7979;
    display: flex;
    justify-content: center;
    align-items: center;
    margin: 0 auto;
+   transition: all .5s;
 }
 .hero-courses:hover{
-  opacity: 0.8;
   color: white;
+  background: #DD7979;
+  border: 2px solid #DD7979;
+  transition: all .5s;
 }
 
 
