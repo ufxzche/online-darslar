@@ -351,12 +351,12 @@
         text-align: center;
         background: whitesmoke;
         border-radius: 5px;
-        z-index: 2;
+        z-index: -2;
         top: 90px;
         width: 92%;
         height: 250px;
-        transform: translateX(-120%);
-        transition: transform .8s ease;
+        transform: translateY(-150%);
+        transition: transform .5s ease;
         margin: 0;
         padding: 15px 0;
         line-height: 30px;
