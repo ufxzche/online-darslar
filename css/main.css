@@ -18,17 +18,13 @@
 }
 
 .header-logo{
-    font-size: 20px;
-    font-weight: 900;
+    width: 170px;
 }
-.toggle{
-    display: none;
-}
+
 .header-nav{
     list-style: none;
     display: flex;
     margin: 0;
-    /* margin-right: 45%; */
 }
 
 .header-nav-item{
@@ -130,9 +126,17 @@
     .header{
         width: 100%;
         height: 70px;
-        padding: 0 50px;
+        padding: 0 30px;
     }
     
+    .header-logo{
+        width: 150px;
+    }
+
+    .header-nav-item{
+        font-size: 15px;
+        margin: 0 10px;
+    }
     .toggle{
         display: none;
     }
@@ -146,15 +150,15 @@
     }
     
     .sign-in{
-        width: 90px;
+        width: 70px;
         height: 30px;
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .sign-up{
-        width: 140px;
+        width: 120px;
         height: 30px;
-        font-size: 14px;
+        font-size: 13px;
         margin-right: 10px;
     }
     
@@ -167,10 +171,13 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .header{
         width: 100%;
-        height: 50px;
+        height: 70px;
         padding: 0 30px;
     }
     
+    .header-logo{
+        width: 130px;
+    }
     .toggle{
         display: block;
         content: "";
@@ -205,9 +212,9 @@
         background: whitesmoke;
         border-radius: 5px;
         z-index: 2;
-        top: 70px;
+        top: 90px;
         width: 91%;
-        height: 250px;
+        height: 350px;
         transform: translateX(-120%);
         transition: transform .8s ease;
         margin: 0;
@@ -236,7 +243,9 @@
         height: 70px;
         padding: 0 30px;
     }
-    
+    .header-logo{
+        width: 130px;
+    }
     .toggle{
         display: block;
         content: "";
@@ -273,7 +282,7 @@
         z-index: 0;
         top: 90px;
         width: 88%;
-        height: 250px;
+        height: 390px;
         transform: translateY(-150%);
         transition: transform .8s ease;
         margin: 0;
@@ -302,7 +311,9 @@
         height: 70px;
         padding: 0 15px;
     }
-    
+    .header-logo{
+        width: 110px;
+    }
     .toggle, .toggle:active{
         display: block;
         content: "";
@@ -339,7 +350,7 @@
         z-index: 0;
         top: 85px;
         width: 92%;
-        height: 250px;
+        height: 370px;
         transform: translateY(-150%);
         transition: transform .5s ease;
         margin: 0;
