@@ -74,7 +74,7 @@
 .sign-in{
     border-radius: 35px;
     background: #DD7979;
-    width: 120px;
+    width: 110px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -98,7 +98,7 @@
     border:  1px solid #DD7979;
     border-radius: 35px;
     background: whitesmoke;
-    width: 170px;
+    width: 160px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -481,7 +481,7 @@
         height: 90vh;
         text-align: center;
     
-        padding: 0 10%;
+        padding: 0 2%;
 
         display: flex;
         justify-content: center;
@@ -492,8 +492,13 @@
 
     .hero-description{
         font-size: 30px;
-        line-height: 45px;
+        line-height: 40px;
         margin-bottom: 30px;
+    }
+
+    .hero-down{
+        width: 30px;
+        height: 30px;
     }
 
   
