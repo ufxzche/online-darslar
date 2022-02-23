@@ -285,11 +285,11 @@
         text-align: center;
         background: whitesmoke;
         border-radius: 5px;
-        z-index: 2;
+        z-index: -2;
         top: 70px;
         width: 88%;
         height: 250px;
-        transform: translateX(-120%);
+        transform: translateY(-150%);
         transition: transform .8s ease;
         margin: 0;
         padding: 15px 0;
