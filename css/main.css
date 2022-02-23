@@ -6,7 +6,7 @@
 .header{
     width: 100%;
     height: 80px;
-    background: whitesmoke;
+    background: black;
 
     display: flex;
     justify-content: space-between;
@@ -37,12 +37,12 @@
     margin: 0 10px;
     font-size: 15px;
     font-weight: 500;
-    color: black;
+    color: white;
     transition: all .2s;
 }
 
 .header-nav-item:hover{
-    color: #DD7979;
+    color: #3da53d;
     transition: all .2s;
 }
 
@@ -51,7 +51,7 @@
     content: "";
     width: 100%;
     height: 3px;
-    background: #DD7979;
+    background: #3da53d;
     transition: all .5s;
 }
 .header-nav-item::after{
@@ -73,7 +73,7 @@
 
 .sign-in{
     border-radius: 35px;
-    background: #DD7979;
+    background: #3da53d;
     width: 110px;
     height: 40px;
     display: flex;
@@ -89,15 +89,15 @@
 
 .sign-in:hover{
     transition: all .5s;
-    border:  1px solid #DD7979;
-    background: whitesmoke;
-    color: #DD7979;
+    border:  1px solid #3da53d;
+    background: white;
+    color: #3da53d;
 }
 
 .sign-up{
-    border:  1px solid #DD7979;
+    border:  1px solid #3da53d;
     border-radius: 35px;
-    background: whitesmoke;
+    background: white;
     width: 160px;
     height: 40px;
     display: flex;
@@ -107,14 +107,13 @@
     text-decoration: none;
     font-size: 15px;
     font-weight: 500;
-    color: #DD7979;
+    color: #3da53d;
     margin-right: 20px;
     transition: all .5s;
 }
 .sign-up:hover{
-    border:  1px solid whitesmoke;
-    background: #DD7979;
-    color: whitesmoke;
+    background: #3da53d;
+    color: white;
     transition: all .5s;
 }
 
