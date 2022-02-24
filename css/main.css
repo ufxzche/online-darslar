@@ -138,7 +138,7 @@
     }
 
     .header-nav-item{
-        font-size: 15px;
+        font-size: 13px;
         margin: 0 10px;
     }
     .toggle{
@@ -156,13 +156,13 @@
     .sign-in{
         width: 70px;
         height: 30px;
-        font-size: 13px;
+        font-size: 11px;
     }
     
     .sign-up{
         width: 120px;
         height: 30px;
-        font-size: 13px;
+        font-size: 11px;
         margin-right: 10px;
     }
     
