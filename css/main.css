@@ -512,95 +512,23 @@
 
 /* courses code here  */
 
-.courses{
-    width: 100%;
-    height: auto;
-    padding: 45px 80px;
 
-    background: black;
-}
 
-.courses-title{
-    font-size: 35px;
-    font-weight: 600;
-    color: white;
-    text-align: center;
-}
 
-.courses-title::after{
-    display: block;
-    content: "";
-    width: 25%;
-    height: 4px;
-    background: red;
-    margin: 0 auto;
-}
-
-.courses-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.courses-card-container{
-    width: 65%;
-}
-.courses-card{
-    width: 100%;
-    height: 350px;
-    padding: 15px 40px;
-    background: white;
-    border-radius: 7px;
-    margin-top: 30px;
-}
-
-.courses-card-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.courses-body{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.courses-card-img{
-    width: 49%;
-    height: 250px;
-}
-
-.courses-lesson{
-    width: 49%;
-   height: 250px;
-    /* list-style: none; */
-    background: whitesmoke;
-    padding: 0;
-    padding: 10px 30px;
-
-    overflow-y: auto;
-}
-.courses-lesson >li{
-    padding: 5px 0;
-}
-.courses-lesson-name{
-    text-decoration: none;
-    width: 100%;
-    height: auto;
-   
-}
 
 .static{
-    width: 30%;
-    height: 780px;
+    width: 100%;
+    height: 380px;
     background: white;
     margin-top: 30px;
     padding: 30px;
     border-radius: 7px;
 
+    display: flex;
+    justify-content: space-between;
 }
 .static-item{
-    width: 100%;
+    width: 23%;
     height: 170px;
     background: whitesmoke;
    text-align: center;
